@@ -75,12 +75,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\LibrariesCPP\SDL2_mixer\include;C:\LibrariesCPP\SDL2_ttf\include;C:\LibrariesCPP\SDL2_image\include;C:\LibrariesCPP\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\LibrariesCPP\SDL2_ttf\include;C:\LibrariesCPP\SDL2_image\include;C:\LibrariesCPP\SDL2\include;C:\LibrariesCPP\SDL2_mixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>C:\LibrariesCPP\SDL2_mixer\lib\x86;C:\LibrariesCPP\SDL2_ttf\lib\x86;C:\LibrariesCPP\SDL2_image\lib\x86;C:\LibrariesCPP\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\LibrariesCPP\SDL2_ttf\lib\x86;C:\LibrariesCPP\SDL2_mixer\lib\x86;C:\LibrariesCPP\SDL2_image\lib\x86;C:\LibrariesCPP\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -88,12 +88,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\LibrariesCPP\SDL2_ttf\include;C:\LibrariesCPP\SDL2_image\include;C:\LibrariesCPP\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\LibrariesCPP\SDL2_ttf\include;C:\LibrariesCPP\SDL2_image\include;C:\LibrariesCPP\SDL2\include;C:\LibrariesCPP\SDL2_mixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>C:\LibrariesCPP\SDL2_ttf\lib\x86;C:\LibrariesCPP\SDL2_image\lib\x86;C:\LibrariesCPP\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\LibrariesCPP\SDL2_ttf\lib\x86;C:\LibrariesCPP\SDL2_mixer\lib\x86;C:\LibrariesCPP\SDL2_image\lib\x86;C:\LibrariesCPP\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
