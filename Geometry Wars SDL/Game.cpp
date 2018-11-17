@@ -178,7 +178,7 @@ void Game::initializeTTF(int & result)
 
 void Game::createWindowAndRenderer(int & result)
 {
-	if (SDL_CreateWindowAndRenderer(WIDTH_SCREEN, HEIGHT_SCREEN, SDL_WINDOW_FULLSCREEN_DESKTOP | SDL_RENDERER_PRESENTVSYNC, &win, &renderer) < ZERO) {
+	if (SDL_CreateWindowAndRenderer(WIDTH_SCREEN, HEIGHT_SCREEN, SDL_WINDOW_FULLSCREEN_DESKTOP | SDL_RENDERER_PRESENTVSYNC, &win, &renderer) < 0) {
 		SDL_Log("Couldn't create window and renderer. SDL Error : %s", SDL_GetError());
 		result = EXIT_FAILURE;
 	}
