@@ -1,0 +1,5 @@
+Left stick = move the spaceship.
+Right stick = shoot direction.
+Start = pause.
+ 
+Press Back to return to menu.

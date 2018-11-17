@@ -1,0 +1,3 @@
+PAUSED
+Start => play.
+Back => menu.
