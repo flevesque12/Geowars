@@ -149,7 +149,7 @@ void Game::freeMemory()
 
 void Game::initializeSDL(int &result)
 {
-	if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_GAMECONTROLLER | SDL_INIT_HAPTIC | SDL_INIT_EVENTS | SDL_INIT_AUDIO) < ZERO)
+	if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_GAMECONTROLLER | SDL_INIT_HAPTIC | SDL_INIT_EVENTS | SDL_INIT_AUDIO) < 0)
 	{
 		SDL_Log("SDL initialization failed. SDL Error : %s", SDL_GetError());
 		result = EXIT_FAILURE;
@@ -158,7 +158,7 @@ void Game::initializeSDL(int &result)
 
 void Game::initializeIMG(int & result)
 {
-	if (IMG_Init(IMG_INIT_PNG | IMG_INIT_JPG) < ZERO) {
+	if (IMG_Init(IMG_INIT_PNG | IMG_INIT_JPG) < 0) {
 		SDL_Log("SDL_image could not initialize! SDL_image Error: %s\n", IMG_GetError());
 		result = EXIT_FAILURE;
 	}
@@ -166,7 +166,7 @@ void Game::initializeIMG(int & result)
 
 void Game::initializeTTF(int & result)
 {
-	if (TTF_Init() < ZERO) {
+	if (TTF_Init() < 0) {
 		SDL_Log("SDL_TTF could not initialize! SDL_TTF Error: %s\n", TTF_GetError());
 		result = EXIT_FAILURE;
 	}
