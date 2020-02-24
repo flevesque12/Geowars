@@ -1,1 +1,1 @@
-#Geometry Wars clone SDL2
+Geometry Wars clone SDL2
