@@ -10,7 +10,7 @@ Controls (Xbox controller):
 
 - Left joystick: Move the player
 - Right joystick: Shoot in the desired direction
-**To play this game you need an Xbox (360 or one) controller
+- To play this game you need an Xbox (360 or one) controller
 
 What I made in this game:
 
